@@ -75,12 +75,14 @@ void Game::processEvents()
 		}
 		if (sf::Event::KeyPressed == newEvent.type) //user pressed a key
 		{
+			system("cls");
 			processKeys(newEvent);
 		}
 		if (sf::Event::TextEntered == newEvent.type)
 		{
 			if ((newEvent.text.unicode < 123 && newEvent.text.unicode > 96) || (newEvent.text.unicode > 64 && newEvent.text.unicode < 91))
 			{
+				system("cls");
 				char m_letter = newEvent.text.unicode;
 				m_handler.handleInput("type",m_letter, m_undoList,m_redoList,m_word);
 			}

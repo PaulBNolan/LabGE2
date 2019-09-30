@@ -1,6 +1,2 @@
-﻿  Command.cpp
-  Game.cpp
-  InputHandler.cpp
-  main.cpp
-  Generating Code...
+﻿  Game.cpp
   CommandPattern.vcxproj -> C:\Users\halo2\Documents\LabGE2\CommandPattern\Debug\CommandPattern.exe
